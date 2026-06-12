@@ -32,7 +32,7 @@ void parse_fruit(xao_Reader *r, xao_Value fruit) {
         if (eq(key, "ripeness")) { ripeness = value; }
     }
     xao_iter_content(r, fruit, &name);
-    printf("A %.*s-weight %.*s\n", SF(ripeness), SF(name));
+    printf("A %.*s-ripeness %.*s\n", SF(ripeness), SF(name));
 }
 
 void parse_picnic(char *xml) {

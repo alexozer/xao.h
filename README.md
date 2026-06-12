@@ -79,7 +79,7 @@ void parse_fruit(xao_Reader *r, xao_Value fruit) {
         if (eq(key, "ripeness")) { ripeness = value; }
     }
     xao_iter_content(r, fruit, &name);
-    printf("A %.*s-weight %.*s\n", SF(ripeness), SF(name));
+    printf("A %.*s-ripeness %.*s\n", SF(ripeness), SF(name));
 }
 
 void parse_picnic(char *xml) {
@@ -117,7 +117,7 @@ int main() {
 Outputs:
 
 ```
-A medium-weight Apple
-A high-weight Watermelon
+A medium-ripeness Apple
+A high-ripeness Watermelon
 Journal peek: "There's nothing like writing by the lake on a beautiful day."
 ```
