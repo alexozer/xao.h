@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PicnicBasket>
+    <Fruit weight="2" ripeness="medium">Apple</Fruit>
+    <Fruit weight="3" ripeness="high">Watermelon</Fruit>
+    <Sandwich>
+        <Shell>Bagel</Shell>
+        <Topping>Egg</Topping>
+        <Topping>Tomato</Topping>
+        <Topping>Bacon</Topping>
+    </Sandwich>
+    <Journal>There&apos;s nothing like writing by the lake on a beautiful day.</Journal>
+</PicnicBasket>
