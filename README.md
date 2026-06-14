@@ -51,7 +51,7 @@ Does not support:
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SF(v) ((int)((v).end - (v).start)), (v.start)
+#define SF(v) ((int)((v).end - (v).start)), ((v).start)
 
 bool eq(xao_Value v, const char *s) {
     size_t size = v.end - v.start;
