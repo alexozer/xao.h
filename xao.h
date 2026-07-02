@@ -1,4 +1,4 @@
-// xao.h v0.1 - Alex Ozer
+// xao.h v0.2 - Alex Ozer
 // Public domain - no warranty implied, use at your own risk
 
 #ifndef XAO_H
@@ -112,6 +112,7 @@ top: {
             res.end = r->curr++;
             return res;
         }
+        if (*r->curr == '=') { r->error = "unexpected ="; goto top; }
 
         // Attr name
         res.type = XAO_ATTR_NAME;
